@@ -12,7 +12,7 @@ const ProductsPage = () => {
               Our<br />
               Products
             </h1>
-            <p className="max-w-lg text-xl sm:text-base mb-6">
+            <p className="max-w-lg text-xl sm:text-base mb-6" style={{ fontSize: '15px' }}>
               Our products are built for builders, Web3 enthusiasts, and those
               eager to explore a new internet—one that is more open, secure,
               and decentralized.
@@ -105,7 +105,7 @@ const ProductsPage = () => {
       </h2>
 
       {/* Description */}
-      <p className="text-xl text-justify  text-black max-w-md">
+      <p className="text-xl text-justify  text-black max-w-md" style={{ fontSize: '15px' }}>
         A cutting‑edge DEX protocol enabling seamless cross‑chain and multi‑chain trading across 10+ blockchains. The platform offers advanced DeFi features, advanced trading tools, analytics, intelligence, IBC, all powered by AI Agents.
       </p>
 
@@ -134,7 +134,7 @@ const ProductsPage = () => {
       {/* Call To Action */}
       <Link href="https://www.roll.exchange" className="inline-block">
                   <button className="gradient-border-btn">
-                    <span className='text-xl'>Connect Wallet</span>
+                    <span className='text-base'>Connect Wallet</span>
                   </button>
                 </Link>
     </div>
@@ -167,7 +167,7 @@ const ProductsPage = () => {
             
             <div className="w-full text-black lg:w-3/5 order-1 lg:order-2">
               <h2 className="text-4xl text-black font-extrabold mb-2">Rolling AI</h2>
-              <p className="text-xl mb-4">
+              <p className="text-xl mb-4" style={{fontSize:'14px'}}>
                 RA, by Roll Protocol, is an advanced AI Agents solution that
                 delivers enhanced security, market intelligence, predictive
                 analytics, sentiment analysis, on-chain analytics, actionable
@@ -212,7 +212,7 @@ const ProductsPage = () => {
               
               <Link href="https://www.getrolling.ai" className="inline-block">
                   <button className="gradient-border-btn">
-                    <span className='text-xl'>Learn More</span>
+                    <span className='text-base'>Learn More</span>
                   </button>
                 </Link>
             </div>
@@ -376,12 +376,12 @@ const ProductsPage = () => {
         <div className="mb-2 text-sm text-pink-500 font-medium">
         Excited for more?
         </div>
-        <h2 className="text-3xl font-bold mb-3">
+        <h2 className="text-2xl font-extrabold mb-3">
         Research &<br/>
         Development
 
         </h2>
-        <p className="text-xl text-justify  mb-6">
+        <p className="text-base text-justify  mb-6">
         Our research spans cryptography, distributed systems, economics, 
                 programming languages, networking, zero-knowledge proofs, artificial 
                 intelligence, and blockchain scalability—pushing the boundaries of 
@@ -389,7 +389,7 @@ const ProductsPage = () => {
         </p>
         <a href="/careers" className="inline-block">
           <button className="gradient-border-btn-mobile">
-            <span className='text-xl'>View RD</span>
+            <span className='text-base'>View RD</span>
           </button>
         </a>
       </div>
@@ -444,13 +444,13 @@ const ProductsPage = () => {
         </div>
         
         {/* Navigation - 2 column grid */}
-        <div className="grid grid-cols-2 gap-y-5 mb-8 text-xl">
+        <div className="grid grid-cols-2 gap-y-4 mb-8 font-extrabold" style={{ fontSize: '16px' }}>
           <a href="/about" className="font-medium">About</a>
           <a href="/products" className="font-medium">Products</a>
           <a href="#" className="font-medium">Partners</a>
           <a href="#" className="font-medium">Platforms & Protocols</a>
           <a href="#" className="font-medium">News</a>
-          <a href="/#rd" className="font-medium">Research & Developments</a>
+          <a href="/#rd" className="font-medium">Research&nbsp;&amp;&nbsp;Developments</a>
           <a href="#" className="font-medium">Blog</a>
           <a href="#" className="font-medium">Bug Bounty</a>
           <a href="/careers" className="font-medium">Careers</a>
