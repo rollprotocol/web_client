@@ -34,7 +34,7 @@ export default function MobileMenu() {
               alt="Roll Protocol"
               width={150}
               height={50}
-              className="cursor-pointer w-80 h-25 xs:w-40 xs:h-16 sm:w-[180px] sm:h-8 md:w-[200px]"
+              className="cursor-pointer w-65 h-22 xs:w-40 xs:h-16 sm:w-[180px] sm:h-8 md:w-[200px]"
               priority
             />
           </Link>
@@ -48,7 +48,7 @@ export default function MobileMenu() {
           </button>
         </div>
         <div className="flex flex-col space-y-5 xs:space-y-8 mt-9 xs:mt-15 overflow-y-auto">
-          <Link href="/products" className="font-bold text-4xl xs:text-3xl sm:text-2xl leading-relaxed hover:opacity-80">Products</Link>
+          <Link href="/products" onClick={() => setIsOpen(false)} className="font-bold text-3xl xs:text-3xl sm:text-2xl leading-relaxed hover:opacity-80">Products</Link>
           <a href="#products" onClick={() => setIsOpen(false)} className="font-bold text-3xl xs:text-3xl sm:text-2xl leading-relaxed hover:opacity-80">Platforms & Protocols</a>
           <a href="/#rd" onClick={() => setIsOpen(false)} className="font-bold text-3xl xs:text-3xl sm:text-2xl leading-relaxed hover:opacity-80">Research and Development</a>
           <Link href="/careers" onClick={() => setIsOpen(false)} className="font-bold text-3xl xs:text-3xl sm:text-2xl leading-relaxed hover:opacity-80">Careers</Link>

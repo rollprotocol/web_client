@@ -27,7 +27,7 @@ const Hero = () => {
               alt="Roll Protocol"
               width={150}
               height={50}
-              className="cursor-pointer w-80 h-25 xs:w-40 xs:h-16 sm:w-[180px] sm:h-auto md:w-[200px]"
+              className="cursor-pointer w-68 h-22 xs:w-40 xs:h-16 sm:w-[180px] sm:h-auto md:w-[200px]"
               priority
             />
           </Link>
@@ -55,7 +55,7 @@ const Hero = () => {
           <h2 className="hero-subtitle hero-subtitle-desktop text-center font-extrabold text-blue-500 text-6xl xs:text-3xl sm:text-3xl mb-2 md:text-6xl lg:text-8xl mt-0">
             We&apos;re Fixing IT.
           </h2>
-          <p className="hero-description hero-description-desktop text-center text-gray-800 text-1xl xs:text-sm sm:text-base font-medium mt-4 mb-8 sm:max-w-3xl md:text-lg max-w-[335px] mx-auto">
+          <p className="hero-description hero-description-desktop text-center text-gray-800 text-base xs:text-sm sm:text-base font-medium mt-4 mb-8 sm:max-w-3xl md:text-lg max-w-[335px] mx-auto">
             Today's internet is fragmented, insecure, and controlled by centralized powers. We&apos;re building a new paradigm—one where blockchain technology empowers users, secures data, and fosters true decentralization. Join us in shaping the future of the web.
           </p>
           

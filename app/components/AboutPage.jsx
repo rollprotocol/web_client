@@ -26,10 +26,10 @@ const AboutPage = () => {
           </div>
           
           {/* Text Overlay - Mobile */}
-          <div className="absolute bottom-0 left-0 sm:hidden">
-            <div className="bg-black p-4">
-              <h1 className="text-3xl text-white font-bold mb-1 leading-tight">About</h1>
-              <h2 className="text-4xl text-white font-bold leading-tight">Roll Protocol</h2>
+          <div className="absolute bottom-0 left-0 sm:hidden ">
+            <div className="bg-black p-0">
+              <h1 className="text-3xl text-white font-bold leading-tight">About</h1>
+              <h2 className="text-3xl text-white font-bold leading-tight">Roll Protocol</h2>
             </div>
           </div>
         </div>
@@ -70,13 +70,13 @@ const AboutPage = () => {
             </div>
             
             {/* Mobile Text Content */}
-            <div className="absolute inset-0 p-6 pt-62">
-              <div className="text-pink-500 font-medium mb-0 text-xl">Forging New Perspectives</div>
-              <h2 className="text-3xl font-bold mb-0 text-white">
+            <div className="absolute inset-0 p-6 pt-70">
+              <div className="text-pink-500 font-medium mb-4 text-xl">Forging New Perspectives</div>
+              <h2 className="text-2xl font-bold mb-5 text-white">
                 Creating new viewpoints.
               </h2>
               
-              <div className="text-white space-y-2 text-lg text-justify">
+              <div className="text-white space-y-8 text-base text-justify">
                 <p>
                   Web3 is reshaping the internet—shifting power from centralized entities to individuals. At Roll Protocol, we are building the infrastructure for a decentralized, secure, and open digital future. By leveraging blockchain and AI, we enable seamless interoperability, financial inclusion, and data ownership, redefining how users interact with the web.
                 </p>
@@ -147,7 +147,7 @@ const AboutPage = () => {
             {/* Left quote */}
             <div className="w-full md:w-1/2 mb-4 md:mb-0">
               <div className="text-red-500 mb-2 text-xl">Founder Story</div>
-              <h2 className="text-3xl md:text-4xl font-bold text-black mb-6">
+              <h2 className="text-2xl md:text-4xl font-bold text-black mb-6">
                 "We're not just changing<br/>
                 the game we're building a<br/>
                 better playing field."
@@ -155,7 +155,7 @@ const AboutPage = () => {
             </div>
             {/* Right text */}
             <div className="w-full md:w-1/2 md:ml-24 mt-4 md:mt-0">
-              <p className="text-xl text-black text-justify">
+              <p className="text-base text-black text-justify">
                 At Roll Protocol, we are building a company that aims to address these problems (and many others) by laying the
                 foundation for a decentralized web stack suitable for mass
                 adoption. The drive to unlock everything that web3 enables is
@@ -168,7 +168,7 @@ const AboutPage = () => {
         {/* Team Section */}
         <div className="px-8 py-16 text-black">
           <h2 className="text-5xl font-bold mb-8">Team</h2>
-          <p className="mb-10 text-2xl text-justify">
+          <p className="mb-10 text-xl text-justify">
             With our experienced team, while our advisors are industry leaders who provide strategic guidance and support.
           </p>
           {/* Team members carousel on mobile, grid on md+ */}
@@ -395,18 +395,18 @@ const AboutPage = () => {
           <div className="mb-2 text-xl text-pink-500 font-medium">
               Fuel Your Curiosity
           </div>
-          <h2 className="text-3xl font-bold mb-3">
+          <h2 className="text-2xl font-extrabold mb-3">
               Build Without <br/>
               Boundaries
           </h2>
-          <p className="text-xl mb-6 text-justify">
+          <p className="text-base mb-6 text-justify">
               We bring together the brightest minds to develop the infrastructure 
               and tools needed to power a new internet paradigm—one that is 
               secure, scalable, and truly decentralized for the next generation.
           </p>
           <a href="/careers" className="inline-block">
           <button className="gradient-border-btn-mobile">
-            <span className='text-xl'>View Careers</span>
+            <span className='text-base'>View Careers</span>
           </button>
         </a>
         </div>
@@ -461,17 +461,17 @@ const AboutPage = () => {
           </div>
           
           {/* Navigation - 2 column grid */}
-          <div className="grid grid-cols-2 gap-y-5 mb-8 text-xl">
-            <a href="/about" className="font-medium">About</a>
-            <a href="/products" className="font-medium">Products</a>
-            <a href="#" className="font-medium">Partners</a>
-            <a href="#" className="font-medium">Platforms & Protocols</a>
-            <a href="#" className="font-medium">News</a>
-            <a href="#" className="font-medium">Research & Developments</a>
-            <a href="#" className="font-medium">Blog</a>
-            <a href="#" className="font-medium">Bug Bounty</a>
-            <a href="/careers" className="font-medium">Careers</a>
-          </div>
+          <div className="grid grid-cols-2 gap-y-4 mb-8 font-extrabold" style={{ fontSize: '16px' }}>
+          <a href="/about" className="font-medium">About</a>
+          <a href="/products" className="font-medium">Products</a>
+          <a href="#" className="font-medium">Partners</a>
+          <a href="#" className="font-medium">Platforms & Protocols</a>
+          <a href="#" className="font-medium">News</a>
+          <a href="/#rd" className="font-medium">Research&nbsp;&amp;&nbsp;Developments</a>
+          <a href="#" className="font-medium">Blog</a>
+          <a href="#" className="font-medium">Bug Bounty</a>
+          <a href="/careers" className="font-medium">Careers</a>
+        </div>
           
           {/* Subscription form */}
           <div className="mb-8">

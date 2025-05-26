@@ -25,7 +25,7 @@ const CareersPage = () => {
       
       {/* Mission Statement */}
       <div className="px-4 sm:px-0 py-4 sm:py-0">
-        <p className="text-black mt-10 text-xl sm:text-base max-w-3xl ml-0 sm:ml-203">
+        <p className="text-black mt-10 text-base sm:text-base max-w-3xl ml-0 sm:ml-203">
           We are a team of visionary builders, engineers, and researchers 
           dedicated to shaping a decentralized, secure, and scalable future
           for the internet.
@@ -42,14 +42,14 @@ const CareersPage = () => {
             <div className="p-6">
               <div className="text-red-500 text-xl font-bold mb-1">How We Work</div>
               <h3 className="text-black text-2xl font-bold mb-2">Remote First</h3>
-              <p className="text-xl text-black mb-4 text-justify">
+              <p className="text-base text-black mb-4 text-justify">
                 We believe talent has no borders. Our team thrives in a remote-first 
                 culture, staying connected through co-working opportunities, 
                 global retreats, and innovative collaboration tools. We foster a 
                 dynamic environment where creativity, teamwork, and innovation 
                 drive meaningful impact—no matter where you are.
               </p>
-              <button className="gradient-border-btn text-white px-4 py-1.5 rounded-md text-xl">
+              <button className="gradient-border-btn text-white px-4 py-1.5 rounded-md text-base">
                 Explore
               </button>
             </div>
@@ -312,18 +312,18 @@ const CareersPage = () => {
         <div className="mb-2 text-sm text-pink-500 font-medium">
           Turn up your curiosity
         </div>
-        <h2 className="text-3xl font-bold mb-3">
+        <h2 className="text-2xl font-extrabold mb-3">
           Turn up your 
           <br />
           curiosity.
         </h2>
-        <p className="text-xl mb-6">
+        <p className="text-base mb-6">
         Roll Protocol gathers the brightest minds to create infrastructure and tools 
         for the decentralized future for everyone.
         </p>
         <a href="/careers" className="inline-block">
           <button className="gradient-border-btn-mobile">
-            <span className='text-xl'>View Careers</span>
+            <span className='text-base'>View Careers</span>
           </button>
         </a>
       </div>
@@ -378,13 +378,13 @@ const CareersPage = () => {
         </div>
         
         {/* Navigation - 2 column grid */}
-        <div className="grid grid-cols-2 gap-y-5 mb-8 text-xl">
+        <div className="grid grid-cols-2 gap-y-4 mb-8 font-extrabold" style={{ fontSize: '16px' }}>
           <a href="/about" className="font-medium">About</a>
           <a href="/products" className="font-medium">Products</a>
           <a href="#" className="font-medium">Partners</a>
           <a href="#" className="font-medium">Platforms & Protocols</a>
           <a href="#" className="font-medium">News</a>
-          <a href="#" className="font-medium">Research & Developments</a>
+          <a href="/#rd" className="font-medium">Research&nbsp;&amp;&nbsp;Developments</a>
           <a href="#" className="font-medium">Blog</a>
           <a href="#" className="font-medium">Bug Bounty</a>
           <a href="/careers" className="font-medium">Careers</a>
