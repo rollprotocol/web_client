@@ -184,7 +184,7 @@ const AboutPage = () => {
               />
               <div className="flex justify-between items-center">
                 <h3 className="font-bold text-xl">Ibrahim BK</h3>
-                <a href="#" className="text-black">
+                <a href="https://www.linkedin.com/in/ibrahimbk" className="text-black">
                   <Image src="/images/linkedin.svg" alt="LinkedIn" width={40} height={40} />
                 </a>
               </div>
@@ -201,7 +201,7 @@ const AboutPage = () => {
               />
               <div className="flex justify-between items-center">
                 <h3 className="font-bold text-xl">Farid Jibril Farouq</h3>
-                <a href="#" className="text-black">
+                <a href="https://www.linkedin.com/in/faridjfarouk" className="text-black">
                   <Image src="/images/linkedin.svg" alt="LinkedIn" width={40} height={40} />
                 </a>
               </div>
@@ -218,7 +218,7 @@ const AboutPage = () => {
               />
               <div className="flex justify-between items-center">
                 <h3 className="font-bold text-xl">Sadiq Rabiu</h3>
-                <a href="#" className="text-black">
+                <a href="https://www.linkedin.com/in/sadiq-rabiu" className="text-black">
                   <Image src="/images/linkedin.svg" alt="LinkedIn" width={40} height={40} />
                 </a>
               </div>
@@ -228,14 +228,31 @@ const AboutPage = () => {
             <div className="min-w-[80vw] max-w-xs md:min-w-0 md:max-w-none mb-8 flex-shrink-0 bg-white rounded-xl shadow md:shadow-none">
               <Image
                 src="/images/team-musa.png"
-                alt="Sadiq Rabiu"
+                alt="Musa Dabra"
                 width={200}
                 height={200}
                 className="w-full h-auto mb-4 rounded-md"
               />
               <div className="flex justify-between items-center">
                 <h3 className="font-bold text-xl">Musa Dabra</h3>
-                <a href="#" className="text-black">
+                <a href="https://www.linkedin.com/in/musa-dabra" className="text-black">
+                  <Image src="/images/linkedin.svg" alt="LinkedIn" width={40} height={40} />
+                </a>
+              </div>
+              <p className="text-xl">VP of Engineering</p>
+            </div>
+             {/* Team member 5 */}
+         <div className="min-w-[80vw] max-w-xs md:min-w-0 md:max-w-none mb-8 flex-shrink-0 bg-white rounded-xl shadow md:shadow-none">
+              <Image
+                src="/images/team-Salim.png"
+                alt="Salim Olawale"
+                width={200}
+                height={200}
+                className="w-full h-auto mb-4 rounded-md"
+              />
+              <div className="flex justify-between items-center">
+                <h3 className="font-bold text-xl">Salim Olawale</h3>
+                <a href="linkedin.com/in/sirlym" className="text-black">
                   <Image src="/images/linkedin.svg" alt="LinkedIn" width={40} height={40} />
                 </a>
               </div>
@@ -243,6 +260,7 @@ const AboutPage = () => {
             </div>
           </div>
         </div>  
+        
         
         {/* Build Without Boundaries Section and FooterSection */}
 
