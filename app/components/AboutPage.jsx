@@ -171,10 +171,10 @@ const AboutPage = () => {
           <p className="mb-10 text-xl text-justify">
             With our experienced team, while our advisors are industry leaders who provide strategic guidance and support.
           </p>
-          {/* Team members carousel on mobile, grid on md+ */}
-          <div className="flex overflow-x-auto gap-6 md:grid md:grid-cols-4 md:gap-6 hide-scrollbar">
+          {/* Team members carousel - horizontal scroll */}
+          <div className="flex overflow-x-auto gap-6 pb-4 snap-x snap-mandatory md:[&::-webkit-scrollbar]:hidden md:[-ms-overflow-style:none] md:[scrollbar-width:none]">
             {/* Team member 1 */}
-            <div className="min-w-[80vw] max-w-xs md:min-w-0 md:max-w-none mb-8 flex-shrink-0 bg-white rounded-xl shadow md:shadow-none">
+            <div className="min-w-[280px] sm:min-w-[320px] flex-shrink-0 snap-start mb-8 bg-white rounded-xl shadow">
               <Image
                 src="/images/team-ibrahim.png"
                 alt="Ibrahim BK"
@@ -182,16 +182,16 @@ const AboutPage = () => {
                 height={300}
                 className="w-full h-auto mb-4 rounded-md"
               />
-              <div className="flex justify-between items-center">
+              <div className="flex justify-between items-center px-4">
                 <h3 className="font-bold text-xl">Ibrahim BK</h3>
                 <a href="https://www.linkedin.com/in/ibrahimbk" className="text-black">
                   <Image src="/images/linkedin.svg" alt="LinkedIn" width={40} height={40} />
                 </a>
               </div>
-              <p className="text-xl">Founder and Co-Creator</p>
+              <p className="text-xl px-4 pb-4">Founder and Co-Creator</p>
             </div>
             {/* Team member 2 */}
-            <div className="min-w-[80vw] max-w-xs md:min-w-0 md:max-w-none mb-8 flex-shrink-0 bg-white rounded-xl shadow md:shadow-none">
+            <div className="min-w-[280px] sm:min-w-[320px] flex-shrink-0 snap-start mb-8 bg-white rounded-xl shadow">
               <Image
                 src="/images/team-farid.png"
                 alt="Farid Jibril Farouq"
@@ -199,16 +199,16 @@ const AboutPage = () => {
                 height={300}
                 className="w-full h-auto mb-4 rounded-md"
               />
-              <div className="flex justify-between items-center">
+              <div className="flex justify-between items-center px-4">
                 <h3 className="font-bold text-xl">Farid Jibril Farouq</h3>
                 <a href="https://www.linkedin.com/in/faridjfarouk" className="text-black">
                   <Image src="/images/linkedin.svg" alt="LinkedIn" width={40} height={40} />
                 </a>
               </div>
-              <p className="text-xl">Co-Founder and COO</p>
+              <p className="text-xl px-4 pb-4">Co-Founder and COO</p>
             </div>
             {/* Team member 3 */}
-            <div className="min-w-[80vw] max-w-xs md:min-w-0 md:max-w-none mb-8 flex-shrink-0 bg-white rounded-xl shadow md:shadow-none">
+            <div className="min-w-[280px] sm:min-w-[320px] flex-shrink-0 snap-start mb-8 bg-white rounded-xl shadow">
               <Image
                 src="/images/team-sadiq.png"
                 alt="Sadiq Rabiu"
@@ -216,16 +216,16 @@ const AboutPage = () => {
                 height={300}
                 className="w-full h-auto mb-4 rounded-md"
               />
-              <div className="flex justify-between items-center">
+              <div className="flex justify-between items-center px-4">
                 <h3 className="font-bold text-xl">Sadiq Rabiu</h3>
-                <a href="https://www.linkedin.com/in/sadiq-rabiu" className="text-black">
+                <a href="https://www.linkedin.com/in/sadiq-rabiu-0b7b991b4/" className="text-black">
                   <Image src="/images/linkedin.svg" alt="LinkedIn" width={40} height={40} />
                 </a>
               </div>
-              <p className="text-xl">Co-Founder and CTO</p>
+              <p className="text-xl px-4 pb-4">Co-Founder and CTO</p>
             </div>
             {/* Team member 4 */}
-            <div className="min-w-[80vw] max-w-xs md:min-w-0 md:max-w-none mb-8 flex-shrink-0 bg-white rounded-xl shadow md:shadow-none">
+            <div className="min-w-[280px] sm:min-w-[320px] flex-shrink-0 snap-start mb-8 bg-white rounded-xl shadow">
               <Image
                 src="/images/team-musa.png"
                 alt="Musa Dabra"
@@ -233,16 +233,16 @@ const AboutPage = () => {
                 height={200}
                 className="w-full h-auto mb-4 rounded-md"
               />
-              <div className="flex justify-between items-center">
+              <div className="flex justify-between items-center px-4">
                 <h3 className="font-bold text-xl">Musa Dabra</h3>
                 <a href="https://www.linkedin.com/in/musa-dabra" className="text-black">
                   <Image src="/images/linkedin.svg" alt="LinkedIn" width={40} height={40} />
                 </a>
               </div>
-              <p className="text-xl">VP of Engineering</p>
+              <p className="text-xl px-4 pb-4">VP of Engineering</p>
             </div>
-             {/* Team member 5 */}
-         <div className="min-w-[80vw] max-w-xs md:min-w-0 md:max-w-none mb-8 flex-shrink-0 bg-white rounded-xl shadow md:shadow-none">
+            {/* Team member 5 */}
+            <div className="min-w-[280px] sm:min-w-[320px] flex-shrink-0 snap-start mb-8 bg-white rounded-xl shadow">
               <Image
                 src="/images/team-Salim.png"
                 alt="Salim Olawale"
@@ -250,13 +250,13 @@ const AboutPage = () => {
                 height={200}
                 className="w-full h-auto mb-4 rounded-md"
               />
-              <div className="flex justify-between items-center">
+              <div className="flex justify-between items-center px-4">
                 <h3 className="font-bold text-xl">Salim Olawale</h3>
                 <a href="linkedin.com/in/sirlym" className="text-black">
                   <Image src="/images/linkedin.svg" alt="LinkedIn" width={40} height={40} />
                 </a>
               </div>
-              <p className="text-xl">VP of Engineering</p>
+              <p className="text-xl px-4 pb-4">Head of Designs</p>
             </div>
           </div>
         </div>  
